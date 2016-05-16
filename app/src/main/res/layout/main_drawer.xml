@@ -1,0 +1,26 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EFEAE9"
+    android:orientation="vertical"
+    xmlns:tools = "http://schemas.android.com/tools"
+    xmlns:card_view = "http://schemas.android.com/apk/res-auto">
+    <!-- 헤더 -->
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:layout_height="200dp"
+        android:layout_width="200dp"
+        android:id="@+id/card_view"
+        android:layout_gravity="center"
+        card_view:cardCornerRadius="4dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="afdsadfs"
+            android:textColor="#000000"/>
+
+    </android.support.v7.widget.CardView>
+
+
+</LinearLayout>
